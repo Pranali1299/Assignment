@@ -12,9 +12,15 @@ class AirthmeticOperations {
 
 	public void sub(int a, int b){
 		
-		System.out.print(a-b);
+
+		int c = a-b ;
+		if(c<0){
+			c=-c;
+		}
+		System.out.print(c);
 
 	}
+	
 
 	public static void main(String[] args){
 	
